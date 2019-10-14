@@ -1,4 +1,4 @@
-public class TesteElevador {
+public class TestaElevador {
     public static void main(String[] args) {
         Elevador e1 = new Elevador(20, 1, 8, 2);
         
