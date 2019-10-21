@@ -1,0 +1,29 @@
+10. Escreva uma classe em Java chamada Estoque. Ela deverá possuir:
+a) os atributos nome(String), qtdAtual(int) e qtdMinima(int).
+b) um construtor sem parâmetros e um outro contendo os parâmetros nome, qtdAtual e qtdMinima.
+c) os métodos com as seguintes assinaturas:
+       void mudarNome(String nome)
+       void mudarqtdMinima(int qtdMinima)
+       void repor(int qtd)
+       void darBaixa(int qtd)
+       String mostra()
+       boolean precisaRepor()
+Os atributos qtdAtual e qtdMinima jamais poderão ser negativos. O método repor aumenta qtdAtual de acordo com o parâmetro qtd.
+O método darBaixa diminui qtdAtual de acordo com o parâmetro qtd. O método mostra() retorna uma String contendo o nome do pro-
+duto, sua quantidade mínima, sua quantidade atual. O método precisaRepor retorna true caso a quantidade atual esteja menor ou
+igual a quantidade mínima e false, caso contrário.
+
+11. Escreva uma clase UsaEstoque cujo método main instancia os 3 objetos a seguir:
+----------------------------------------------------------------------------------------
+| estoque1                         estoque2                         estoque3           | 
+| nome: Impressora Jato de Tinta   nome: Monitor LCD 17 Polegadas   nome: Mouse Ótico  |
+| qtdAtual: 13                     qtdAtual: 11                     qtdAtual: 6        | 
+| qtdMinima: 6                     qtdMinima: 13                    qtdMinima: 2       |
+----------------------------------------------------------------------------------------
+
+Depois disso, execute as seguintes operações na seguinte ordem:
+a) Dar baixa em 5 unidades de estoque1.
+b) Fazer reposição de 7 unidades de estoque2.
+c) Dar baixa em 4 unidades de estoque3.
+d) Exibir a saída do método precisaRepor dos 3 objetos.
+e) Exibir a saída do método mostra para apresentar as informações sobre os 3 objetos.
